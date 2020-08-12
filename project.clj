@@ -1,7 +1,8 @@
-(defproject genetic-algorithm "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
-  :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
-            :url "https://www.eclipse.org/legal/epl-2.0/"}
+(defproject genetic-algorithm "0.1.1"
+  :description "Clojure's implementation of genetic algorithm
+  see also https://github.com/Miyoshi-Ryota/genetic-algorithm-clojure"
+  :url "https://github.com/Miyoshi-Ryota/genetic-algorithm-clojure"
+  :license {:name "MIT License"
+            :url "https://opensource.org/licenses/mit-license.php"}
   :dependencies [[org.clojure/clojure "1.10.1"]]
   :repl-options {:init-ns genetic-algorithm.core})
